@@ -4,7 +4,10 @@ import service
 from dependencies import get_db
 
 
-router = APIRouter()
+router = APIRouter(
+     prefix="/message_service",
+     tags=["message_service"],
+)
 
 
 @router.post("/messages/")

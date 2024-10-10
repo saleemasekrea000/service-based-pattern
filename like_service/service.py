@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from models import Like
 import requests
 
-MESSAGE_SERVICE_URL = "http://message_service:8001" 
+MESSAGE_SERVICE_URL = "http://message_service:8001/message_service" 
 USER_SERVICE_URL = "http://user_service:8000/user_service/users"
 
 def message_exists(message_id: int) -> bool:
