@@ -12,6 +12,10 @@ Each servive is runnign on differernt port , and they talk to each other using R
 - **User Service**: `http://user_service:8000/user_service/users`
 
 ## API Endpoints
+### User Service
+ - **POST** `/users/`
+ - **Request Body**:
+    - `username`
 
 ### Message Service
 
